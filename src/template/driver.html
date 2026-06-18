@@ -1,0 +1,80 @@
+<template
+  id="driver-index"
+  data-path="/hall-of-fame"
+  data-title="Champion Drivers"
+  data-description="Browse, filter, sort, and compare Formula 1 World Drivers Champions."
+>
+  <header class="hero">
+    <nav class="topbar" aria-label="Primary navigation">
+      <a class="brand" href="/hall-of-fame" aria-label="Legends of the Grid home">
+        <span class="brand__mark">F1</span>
+        <span>Legends of the Grid</span>
+      </a>
+      <div class="topbar__links">
+        {{navLinks}}
+      </div>
+    </nav>
+    <section class="hero__content" id="top">
+      <p class="eyebrow">World Drivers' Champions</p>
+      <h1>Formula 1's title winners, framed for comparison.</h1>
+      <p class="hero__copy">
+        Browse a curated hall of champion drivers, filter by era, and compare the records that shaped racing history.
+      </p>
+    </section>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Champion controls">
+      <label class="control">
+        <span>Search champion</span>
+        <div class="control__field">
+          <span class="control__icon">{{searchIcon}}</span>
+          <input id="searchInput" type="search" placeholder="Search by name" autocomplete="off" />
+        </div>
+      </label>
+
+      <label class="control">
+        <span>Era</span>
+        <select id="eraFilter"></select>
+      </label>
+
+      <label class="control">
+        <span>Sort</span>
+        <select id="sortSelect">
+          <option value="titles-desc">Most championships</option>
+          <option value="titles-asc">Fewest championships</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="section-heading" aria-live="polite">
+      <div>
+        <p class="eyebrow">Hall of fame</p>
+        <h2>Champion Gallery</h2>
+      </div>
+      <p id="resultsCount"></p>
+    </section>
+
+    <section id="championGrid" class="champion-grid" aria-label="Champion cards"></section>
+
+    <section id="compare" class="compare" aria-labelledby="compareTitle">
+      <div class="section-heading section-heading--compare">
+        <div>
+          <p class="eyebrow">Record room</p>
+          <h2 id="compareTitle">{{compareIcon}} Compare Champions</h2>
+        </div>
+      </div>
+      <div class="compare__controls">
+        <label class="control">
+          <span>First champion</span>
+          <select id="firstChampionSelect"></select>
+        </label>
+        <label class="control">
+          <span>Second champion</span>
+          <select id="secondChampionSelect"></select>
+        </label>
+      </div>
+      <div id="comparisonTable" class="comparison"></div>
+    </section>
+  </main>
+</template>

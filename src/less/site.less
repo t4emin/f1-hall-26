@@ -1,0 +1,40 @@
+@import (reference) "./variables.less";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at 14% 0%, rgba(225, 6, 0, 0.24), transparent 360px),
+    radial-gradient(circle at 84% 12%, rgba(242, 210, 123, 0.14), transparent 420px),
+    linear-gradient(135deg, #050506 0%, #111217 46%, #070708 100%);
+  color: @color-text;
+  font-family: @font-body;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

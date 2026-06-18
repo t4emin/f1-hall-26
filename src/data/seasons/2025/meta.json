@@ -1,0 +1,8 @@
+{
+  "year": 2025,
+  "name": "2025 FIA Formula One World Championship",
+  "rounds": 24,
+  "driversChampion": "Lando Norris",
+  "constructorsChampion": "McLaren-Mercedes",
+  "summary": "A static season dataset for browsing teams, drivers, standings, and race classifications."
+}

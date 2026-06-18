@@ -1,0 +1,84 @@
+<template
+  id="season-detail"
+  data-path="/seasons/{year}"
+  data-title="Season Detail"
+  data-description="View Formula 1 season teams, drivers, standings, and race classifications."
+>
+  <header class="hero hero--detail">
+    <nav class="topbar" aria-label="Primary navigation">
+      <a class="brand" href="/hall-of-fame" aria-label="Legends of the Grid home">
+        <span class="brand__mark">F1</span>
+        <span>Legends of the Grid</span>
+      </a>
+      <div class="topbar__links">{{navLinks}}</div>
+    </nav>
+    <section class="hero__content hero__content--detail" id="top">
+      <a class="back-link" href="/seasons">{{backIcon}} Back to seasons</a>
+      <p class="eyebrow">Season {{year}}</p>
+      <h1>{{name}}</h1>
+      <p class="hero__copy">{{summary}}</p>
+    </section>
+  </header>
+
+  <main class="season-page">
+    <section class="season-summary">
+      <article>
+        <span>{{trophyIcon}}</span>
+        <p>Drivers' Champion</p>
+        <strong>{{driversChampion}}</strong>
+      </article>
+      <article>
+        <span>{{trophyIcon}}</span>
+        <p>Constructors' Champion</p>
+        <strong>{{constructorsChampion}}</strong>
+      </article>
+      <article>
+        <span>{{calendarIcon}}</span>
+        <p>Rounds</p>
+        <strong>{{rounds}}</strong>
+      </article>
+    </section>
+
+    <section class="section-heading">
+      <div>
+        <p class="eyebrow">Entries</p>
+        <h2>Teams and Drivers</h2>
+      </div>
+    </section>
+    <section id="seasonTeams" class="season-grid" aria-label="Season teams"></section>
+
+    <section class="season-columns">
+      <section>
+        <div class="section-heading section-heading--compact">
+          <div>
+            <p class="eyebrow">Standings</p>
+            <h2>Drivers</h2>
+          </div>
+        </div>
+        <div id="driverStandings" class="season-table"></div>
+      </section>
+
+      <section>
+        <div class="section-heading section-heading--compact">
+          <div>
+            <p class="eyebrow">Standings</p>
+            <h2>Constructors</h2>
+          </div>
+        </div>
+        <div id="constructorStandings" class="season-table"></div>
+      </section>
+    </section>
+
+    <section class="section-heading">
+      <div>
+        <p class="eyebrow">Race results</p>
+        <h2>Grand Prix Classifications</h2>
+      </div>
+      <p>Click a race to view finishing order</p>
+    </section>
+    <section class="season-race-layout">
+      <div id="raceTable" class="season-table"></div>
+      <div id="raceResultPanel" class="race-result-panel"></div>
+    </section>
+  </main>
+</template>

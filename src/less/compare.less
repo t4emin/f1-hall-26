@@ -1,0 +1,121 @@
+@import (reference) "./variables.less";
+
+.compare {
+  margin-top: 54px;
+  padding: 28px;
+  border: 1px solid @color-red-line;
+  border-radius: @radius;
+  background:
+    linear-gradient(145deg, rgba(225, 6, 0, 0.12), transparent 34%),
+    linear-gradient(25deg, transparent 64%, rgba(242, 210, 123, 0.08)),
+    @color-panel;
+  box-shadow: @shadow-panel;
+}
+
+.compare__controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.comparison {
+  display: grid;
+  gap: 18px;
+}
+
+.comparison__drivers {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+
+  article {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px;
+    border: 1px solid rgba(247, 244, 237, 0.12);
+    border-radius: @radius;
+    background: @color-track;
+  }
+
+  img {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    border: 1px solid @color-line;
+    object-fit: cover;
+  }
+
+  p {
+    margin: 0 0 5px;
+    color: @color-muted;
+  }
+
+  h3 {
+    margin: 0;
+    font-family: @font-display;
+    font-size: 22px;
+    letter-spacing: 0;
+  }
+}
+
+.comparison__table {
+  overflow: hidden;
+  border: 1px solid rgba(247, 244, 237, 0.12);
+  border-radius: @radius;
+}
+
+.comparison__row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(120px, 0.7fr) minmax(0, 1fr);
+  gap: 12px;
+  padding: 14px 16px;
+  border-bottom: 1px solid rgba(247, 244, 237, 0.1);
+  align-items: center;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  strong {
+    color: @color-gold-soft;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  span {
+    line-height: 1.45;
+  }
+
+  span:last-child {
+    text-align: right;
+  }
+}
+
+@media (max-width: 760px) {
+  .compare {
+    padding: 18px;
+  }
+
+  .compare__controls,
+  .comparison__drivers {
+    grid-template-columns: 1fr;
+  }
+
+  .comparison__row {
+    grid-template-columns: 1fr;
+
+    strong,
+    span,
+    span:last-child {
+      text-align: left;
+    }
+
+    strong {
+      order: -1;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+<template
+  id="season-index"
+  data-path="/seasons"
+  data-title="F1 Seasons"
+  data-description="Browse Formula 1 season datasets."
+>
+  <header class="hero hero--detail">
+    <nav class="topbar" aria-label="Primary navigation">
+      <a class="brand" href="/hall-of-fame" aria-label="Legends of the Grid home">
+        <span class="brand__mark">F1</span>
+        <span>Legends of the Grid</span>
+      </a>
+      <div class="topbar__links">{{navLinks}}</div>
+    </nav>
+    <section class="hero__content hero__content--detail" id="top">
+      <p class="eyebrow">Season archive</p>
+      <h1>Formula 1 seasons by year.</h1>
+      <p class="hero__copy">Explore static season data split into JSON files for teams, drivers, standings, races, and race results.</p>
+    </section>
+  </header>
+
+  <main class="season-page">
+    <section class="section-heading">
+      <div>
+        <p class="eyebrow">Available datasets</p>
+        <h2>Season Library</h2>
+      </div>
+    </section>
+    <section id="seasonGrid" class="season-grid" aria-label="Season cards"></section>
+  </main>
+</template>

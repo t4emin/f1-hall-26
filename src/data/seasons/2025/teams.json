@@ -1,0 +1,72 @@
+[
+  {
+    "id": "mclaren",
+    "name": "McLaren Formula 1 Team",
+    "constructor": "McLaren-Mercedes",
+    "powerUnit": "Mercedes",
+    "drivers": ["lando-norris", "oscar-piastri"]
+  },
+  {
+    "id": "mercedes",
+    "name": "Mercedes-AMG Petronas F1 Team",
+    "constructor": "Mercedes",
+    "powerUnit": "Mercedes",
+    "drivers": ["george-russell", "kimi-antonelli"]
+  },
+  {
+    "id": "ferrari",
+    "name": "Scuderia Ferrari HP",
+    "constructor": "Ferrari",
+    "powerUnit": "Ferrari",
+    "drivers": ["charles-leclerc", "lewis-hamilton"]
+  },
+  {
+    "id": "red-bull",
+    "name": "Oracle Red Bull Racing",
+    "constructor": "Red Bull Racing-Honda RBPT",
+    "powerUnit": "Honda RBPT",
+    "drivers": ["max-verstappen", "liam-lawson", "yuki-tsunoda"]
+  },
+  {
+    "id": "williams",
+    "name": "Atlassian Williams Racing",
+    "constructor": "Williams-Mercedes",
+    "powerUnit": "Mercedes",
+    "drivers": ["alexander-albon", "carlos-sainz"]
+  },
+  {
+    "id": "racing-bulls",
+    "name": "Visa Cash App Racing Bulls F1 Team",
+    "constructor": "Racing Bulls-Honda RBPT",
+    "powerUnit": "Honda RBPT",
+    "drivers": ["isack-hadjar", "yuki-tsunoda", "liam-lawson"]
+  },
+  {
+    "id": "aston-martin",
+    "name": "Aston Martin Aramco F1 Team",
+    "constructor": "Aston Martin Aramco-Mercedes",
+    "powerUnit": "Mercedes",
+    "drivers": ["fernando-alonso", "lance-stroll"]
+  },
+  {
+    "id": "kick-sauber",
+    "name": "Stake F1 Team Kick Sauber",
+    "constructor": "Kick Sauber-Ferrari",
+    "powerUnit": "Ferrari",
+    "drivers": ["gabriel-bortoleto", "nico-hulkenberg"]
+  },
+  {
+    "id": "haas",
+    "name": "MoneyGram Haas F1 Team",
+    "constructor": "Haas-Ferrari",
+    "powerUnit": "Ferrari",
+    "drivers": ["esteban-ocon", "oliver-bearman"]
+  },
+  {
+    "id": "alpine",
+    "name": "BWT Alpine F1 Team",
+    "constructor": "Alpine-Renault",
+    "powerUnit": "Renault",
+    "drivers": ["jack-doohan", "franco-colapinto", "pierre-gasly"]
+  }
+]

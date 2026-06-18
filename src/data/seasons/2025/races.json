@@ -1,0 +1,194 @@
+[
+  {
+    "id": "australian",
+    "round": 1,
+    "grandPrix": "Australian Grand Prix",
+    "country": "Australia",
+    "circuit": "Albert Park Circuit, Melbourne",
+    "winnerId": "lando-norris"
+  },
+  {
+    "id": "chinese",
+    "round": 2,
+    "grandPrix": "Chinese Grand Prix",
+    "country": "China",
+    "circuit": "Shanghai International Circuit, Shanghai",
+    "winnerId": "oscar-piastri"
+  },
+  {
+    "id": "japanese",
+    "round": 3,
+    "grandPrix": "Japanese Grand Prix",
+    "country": "Japan",
+    "circuit": "Suzuka Circuit, Suzuka",
+    "winnerId": "max-verstappen"
+  },
+  {
+    "id": "bahrain",
+    "round": 4,
+    "grandPrix": "Bahrain Grand Prix",
+    "country": "Bahrain",
+    "circuit": "Bahrain International Circuit, Sakhir",
+    "winnerId": "oscar-piastri"
+  },
+  {
+    "id": "saudi-arabian",
+    "round": 5,
+    "grandPrix": "Saudi Arabian Grand Prix",
+    "country": "Saudi Arabia",
+    "circuit": "Jeddah Corniche Circuit, Jeddah",
+    "winnerId": "oscar-piastri"
+  },
+  {
+    "id": "miami",
+    "round": 6,
+    "grandPrix": "Miami Grand Prix",
+    "country": "United States",
+    "circuit": "Miami International Autodrome, Miami Gardens, Florida",
+    "winnerId": "oscar-piastri"
+  },
+  {
+    "id": "emilia-romagna",
+    "round": 7,
+    "grandPrix": "Emilia Romagna Grand Prix",
+    "country": "Italy",
+    "circuit": "Imola Circuit, Imola",
+    "winnerId": "max-verstappen"
+  },
+  {
+    "id": "monaco",
+    "round": 8,
+    "grandPrix": "Monaco Grand Prix",
+    "country": "Monaco",
+    "circuit": "Circuit de Monaco, Monaco",
+    "winnerId": "lando-norris"
+  },
+  {
+    "id": "spanish",
+    "round": 9,
+    "grandPrix": "Spanish Grand Prix",
+    "country": "Spain",
+    "circuit": "Circuit de Barcelona-Catalunya, Montmeló",
+    "winnerId": "oscar-piastri"
+  },
+  {
+    "id": "canadian",
+    "round": 10,
+    "grandPrix": "Canadian Grand Prix",
+    "country": "Canada",
+    "circuit": "Circuit Gilles Villeneuve, Montreal",
+    "winnerId": "george-russell"
+  },
+  {
+    "id": "austrian",
+    "round": 11,
+    "grandPrix": "Austrian Grand Prix",
+    "country": "Austria",
+    "circuit": "Red Bull Ring, Spielberg",
+    "winnerId": "lando-norris"
+  },
+  {
+    "id": "british",
+    "round": 12,
+    "grandPrix": "British Grand Prix",
+    "country": "United Kingdom",
+    "circuit": "Silverstone Circuit, Silverstone",
+    "winnerId": "lando-norris"
+  },
+  {
+    "id": "belgian",
+    "round": 13,
+    "grandPrix": "Belgian Grand Prix",
+    "country": "Belgium",
+    "circuit": "Circuit de Spa-Francorchamps, Stavelot",
+    "winnerId": "oscar-piastri"
+  },
+  {
+    "id": "hungarian",
+    "round": 14,
+    "grandPrix": "Hungarian Grand Prix",
+    "country": "Hungary",
+    "circuit": "Hungaroring, Mogyoród",
+    "winnerId": "lando-norris"
+  },
+  {
+    "id": "dutch",
+    "round": 15,
+    "grandPrix": "Dutch Grand Prix",
+    "country": "Netherlands",
+    "circuit": "Circuit Zandvoort, Zandvoort",
+    "winnerId": "oscar-piastri"
+  },
+  {
+    "id": "italian",
+    "round": 16,
+    "grandPrix": "Italian Grand Prix",
+    "country": "Italy",
+    "circuit": "Monza Circuit, Monza",
+    "winnerId": "max-verstappen"
+  },
+  {
+    "id": "azerbaijan",
+    "round": 17,
+    "grandPrix": "Azerbaijan Grand Prix",
+    "country": "Azerbaijan",
+    "circuit": "Baku City Circuit, Baku",
+    "winnerId": "max-verstappen"
+  },
+  {
+    "id": "singapore",
+    "round": 18,
+    "grandPrix": "Singapore Grand Prix",
+    "country": "Singapore",
+    "circuit": "Marina Bay Street Circuit, Singapore",
+    "winnerId": "george-russell"
+  },
+  {
+    "id": "united-states",
+    "round": 19,
+    "grandPrix": "United States Grand Prix",
+    "country": "United States",
+    "circuit": "Circuit of the Americas, Austin, Texas",
+    "winnerId": "max-verstappen"
+  },
+  {
+    "id": "mexico-city",
+    "round": 20,
+    "grandPrix": "Mexico City Grand Prix",
+    "country": "Mexico",
+    "circuit": "Autódromo Hermanos Rodríguez, Mexico City",
+    "winnerId": "lando-norris"
+  },
+  {
+    "id": "sao-paulo",
+    "round": 21,
+    "grandPrix": "São Paulo Grand Prix",
+    "country": "Brazil",
+    "circuit": "Interlagos Circuit, São Paulo",
+    "winnerId": "lando-norris"
+  },
+  {
+    "id": "las-vegas",
+    "round": 22,
+    "grandPrix": "Las Vegas Grand Prix",
+    "country": "United States",
+    "circuit": "Las Vegas Strip Circuit, Paradise, Nevada",
+    "winnerId": "max-verstappen"
+  },
+  {
+    "id": "qatar",
+    "round": 23,
+    "grandPrix": "Qatar Grand Prix",
+    "country": "Qatar",
+    "circuit": "Lusail International Circuit, Lusail",
+    "winnerId": "max-verstappen"
+  },
+  {
+    "id": "abu-dhabi",
+    "round": 24,
+    "grandPrix": "Abu Dhabi Grand Prix",
+    "country": "United Arab Emirates",
+    "circuit": "Yas Marina Circuit, Abu Dhabi",
+    "winnerId": "max-verstappen"
+  }
+]

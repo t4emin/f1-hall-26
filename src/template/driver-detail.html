@@ -1,0 +1,60 @@
+<template
+  id="driver-detail"
+  data-path="/hall-of-fame/{id}"
+  data-title="Champion Profile"
+  data-description="View a Formula 1 World Drivers Champion profile and title record."
+>
+  <header class="hero hero--detail">
+    <nav class="topbar" aria-label="Primary navigation">
+      <a class="brand" href="/hall-of-fame" aria-label="Legends of the Grid home">
+        <span class="brand__mark">F1</span>
+        <span>Legends of the Grid</span>
+      </a>
+      <div class="topbar__links">
+        {{navLinks}}
+      </div>
+    </nav>
+    <section class="hero__content hero__content--detail" id="top">
+      <a class="back-link" href="/hall-of-fame">{{backIcon}} Back to hall</a>
+      <p class="eyebrow">{{flagIcon}} {{country}}</p>
+      <h1>{{name}}</h1>
+      <p class="hero__copy">{{bio}}</p>
+    </section>
+  </header>
+
+  <main>
+    <section class="driver-profile">
+      <img src="{{image}}" alt="{{name}} portrait placeholder" />
+      <div class="driver-profile__content">
+        <p class="eyebrow">{{era}}</p>
+        <h2>{{trophyIcon}} {{championships}} World Drivers' Championships</h2>
+        <dl class="driver-profile__stats">
+          <div>
+            <dt>{{calendarIcon}} Champion years</dt>
+            <dd>{{championYears}}</dd>
+          </div>
+          <div>
+            <dt>{{usersIcon}} Teams won with</dt>
+            <dd>{{teamsWonWith}}</dd>
+          </div>
+          <div>
+            <dt>Wins</dt>
+            <dd>{{wins}}</dd>
+          </div>
+          <div>
+            <dt>Podiums</dt>
+            <dd>{{podiums}}</dd>
+          </div>
+          <div>
+            <dt>Poles</dt>
+            <dd>{{poles}}</dd>
+          </div>
+          <div>
+            <dt>Title span</dt>
+            <dd>{{firstTitle}} - {{lastTitle}}</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+  </main>
+</template>
